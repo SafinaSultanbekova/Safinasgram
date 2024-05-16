@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+    <nav> 
+        <a><b>Safinasgram</b></a> 
+    </nav> 
+    <section id="posts"> 
+        <div id="postsBox"> 
+            <div id="firstPost" class="post"> 
+                <div class="avaBox"> 
+                    <img id="imgpost" class="ava" src="adina.jpg"> 
+                    <h1 class = "user">Adina</h1> 
+                </div> 
+                <img class="img" src="fizmat.jpeg"> 
+                <div class="likes">
+                    <img class="like" src="like.png" onclick="addLikes()"><span class="counter"> 7898</span> 
+                </div> 
+                <div> 
+                    <p class = "text">РФМШ – школа моей мечты. Это школа, которая формирует меня как личность, открывая дорогу к светлому будущему. Я мечтала гордо носить имя ученицы РФМШ и долго шла к этому…</p>
+                </div>
+                <div class="comments"></div>
+                <div class="addcomment">
+                    <input type="text" placeholder="Add comment" class="comment" name = "comm">
+                    <button class="add" >Send</button>
+                </div> 
+                
+            </div>     
+        </div> 
+    </section> 
+    <script src="script.js"></script> 
+</body> 
+</html>
